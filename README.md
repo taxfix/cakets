@@ -58,7 +58,7 @@ app.myFunction2('hello');
 
 **What about testing?**
 
-Easy peasy, just inject `test` modules:
+Easy peasy, just inject your mocked modules:
 
 ```typescript
 import { declare } from 'cakets';
