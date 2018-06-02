@@ -62,15 +62,13 @@ Easy peasy, just inject your mocked modules:
 
 ```typescript
 import { declare } from 'cakets';
+import Example2 from './example2';
 
 const mockQueue = ({
     send: jest.fn()
 });
 
-const TestQueueModule declare({ queue: mockQueue });
-
-import Example2 from './example2';
-
+const TestQueueModule = declare({ queue: mockQueue });
 const test = Example2(TestQueueModule())();
 
 describe('Example2', () => {
