@@ -34,7 +34,7 @@ export interface DatabaseModule {
 export default declare({ database });
 ```
 
-`declare` is just syntax sugar for modules which do not have any dependency:
+`declare` is just syntax sugar for modules which do not have any dependencies:
 
 ```typescript
 // the following is equivalent to: declare({ database })
@@ -57,7 +57,8 @@ app.myFunction2('hello');
 ```
 
 **What about testing?**
-Easy piasy, just inject `test` modules:
+
+Easy peasy, just inject `test` modules:
 
 ```typescript
 import { declare } from 'cakets';
