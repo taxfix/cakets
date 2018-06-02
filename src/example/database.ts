@@ -1,0 +1,1 @@
+export const get = (x: string): string => `${x} from DB`;
