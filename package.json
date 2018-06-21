@@ -1,8 +1,17 @@
 {
   "name": "cakets",
+  "description": "Dependency injection for TypeScript",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Alexander De Leon <alexander@taxfix.de>",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc"
   },
